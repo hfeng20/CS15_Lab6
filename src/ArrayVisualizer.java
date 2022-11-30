@@ -1,5 +1,3 @@
-package lab6;
-
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.control.Button;
@@ -20,7 +18,8 @@ but you will not have to change anything to complete your lab.
 */
 
 /**
- * This class creates a visualizer for ArrayBuilder to display the different Arrays.
+ * This class creates a visualizer for ArrayBuilder to display the different
+ * Arrays.
  * (Acts as a PaneOrganizer class)
  */
 public class ArrayVisualizer {
@@ -45,11 +44,10 @@ public class ArrayVisualizer {
         this.alienArrayListCreator = new AlienArrayListCreator(alienPane);
     }
 
-
     /**
      * Accessor method for the root pane
      */
-    public Pane getRoot(){
+    public Pane getRoot() {
         return this.root;
     }
 
